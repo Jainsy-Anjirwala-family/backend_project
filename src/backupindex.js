@@ -1,6 +1,6 @@
 const express = require('express')
 const { Pool } = require('pg');
-const app = express()
+const app = express();
 const port = 8080
 
 const selectQuery = `SELECT * FROM persons;`;
